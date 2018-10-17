@@ -41,10 +41,3 @@ eureka:
         register-with-eureka: true
         service-url:
             defaultZone: http://admin:${spring.security.user.password:admin}@eureka-peer-2:8762/eureka/
-
-jhipster:
-    swagger:
-        default-include-pattern: /(api|config)/.*
-        title: JHipster Registry API
-        description: JHipster Registry API documentation
-        version: ${info.project.version}
