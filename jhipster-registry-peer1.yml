@@ -20,7 +20,19 @@
 # Documentation at:
 # https://github.com/Netflix/eureka/blob/master/eureka-core/src/main/java/com/netflix/eureka/EurekaServerConfig.java
 # ===================================================================
-
+spring:
+    application:
+        name: jhipster-registry
+    mvc:
+        favicon:
+            enabled: false
+    security:
+        user:
+            name: admin
+            password: admin
+            roles: USER,ADMIN
+    thymeleaf:
+        mode: HTML
 server:
     port: 8761
 
