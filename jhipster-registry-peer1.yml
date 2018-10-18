@@ -51,4 +51,3 @@ jhipster:
         authentication:
             jwt:
                 secret: c9d37cefc48581919939d587c750ea215020765b
-                base64-secret: c9d37cefc48581919939d587c750ea215020765b
