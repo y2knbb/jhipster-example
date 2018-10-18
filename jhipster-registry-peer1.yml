@@ -24,7 +24,7 @@ spring:
     security:
         user:
             name: admin
-            password: sml@#!
+            password: sml@#!123
             roles: USER,ADMIN
 server:
     port: 8761
